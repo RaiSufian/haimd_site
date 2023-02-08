@@ -2,10 +2,10 @@ import { Icon } from '@iconify/react';
 const About = () => {
     return (
         <div className="about_section py-8">
-            <div className="container px-14 flex mx-auto items-center">
+            <div className="container px-14 md:flex mx-auto items-center">
                 <div className="flex-1">
                     <div className="text-white font-inter">
-                        <h2 className="text-5xl font-extrabold"><span className="text-themeColor">About </span>Abu Sufian</h2>
+                        <h2 className="lg:text-5xl text-3xl font-extrabold"><span className="text-themeColor">About </span>Abu Sufian</h2>
                         <p className="py-4 pr-12 text-sm">A creative professional with a strong portfolio in digital design, including experience with front-end development. Experienced working from concept to production, and with stakeholders from multiple disciplines.</p>
                         <div className="about_social flex items-center gap-4">
                             <a href="#"><Icon icon="mdi:github" className="text-xl " /></a>
