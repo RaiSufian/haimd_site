@@ -1,7 +1,7 @@
 import { Icon } from '@iconify/react';
 const About = () => {
     return (
-        <div className="about_section py-8">
+        <div className="about_section py-12 ">
             <div className="container px-14 md:flex mx-auto items-center">
                 <div className="flex-1">
                     <div className="text-white font-inter">
