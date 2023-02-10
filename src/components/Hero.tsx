@@ -9,12 +9,12 @@ const Hero = () => {
                         <h3 className="font-extrabold lg:text-5xl text-3xl">Abu Sufian.</h3>
                         <h3 className="lg:text-5xl text-3xl font-extrabold py-3 text-themeColor">Frontend web <br /> developer and<br /> Designer</h3>
                         <p className="text-sm font-bold lg:w-96">I CREATE WEBSITES THAT ARE A PLEASURE TO USE. I DESIGN THEM WITH BEAUTIFUL TYPOGRAPHY, MEANINGFUL TRANSITIONS AND THOUGHTFUL INTERACTIONS THAT DELIGHT PEOPLE.</p>
-                        <button className="mt-3 lg:py-4 py-2 lg:px-14 px-7 bg-themeColor text-black font-bold rounded-full">Get in touch</button>
+                        <button className=" z-10 lg:py-4 py-2 lg:px-14 px-7 bg-themeColor text-black font-bold rounded-full mt-4 relative before:absolute before:content-['Get_in_touch'] before:top-0  before:left-0 before:w-0 before:h-full before:bg-white before:rounded-full before:text-black before:py-4 before:overflow-hidden hover:before:w-full before:transition-all before:duration-150">Get in touch</button>
                     </div>
 
                 </div>
                 <div className="flex-1">
-                    <img src="/img/hero.png" className="mx-auto lg:w-[70%] w-[100%]" />
+                    <img src="/img/hero.png" className="mx-auto lg:w-[70%] w-[100%] animate-waving-hand" />
                 </div>
             </div>
 
