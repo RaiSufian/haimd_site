@@ -1,6 +1,6 @@
 const Enquire = () => {
     return (
-        <div className="enquire _section py-12 bg-black">
+        <div className="enquire _section py-12 bg-black" id="equire_section">
             <div className="container mx-auto px-12 font-inter">
                 <h3 className="lg:text-5xl text-3xl font-extrabold text-center">
                     Lets build your<br />

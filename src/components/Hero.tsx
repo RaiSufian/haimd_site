@@ -14,7 +14,7 @@ const Hero = () => {
 
                 </div>
                 <div className="flex-1">
-                    <img src="/img/hero.png" className="mx-auto lg:w-[70%] w-[100%] animate-waving-hand" />
+                    <img src="/img/hero.png" className="mx-auto lg:w-[70%] w-[100%] animate-waving-hand" alt="hero_img"/>
                 </div>
             </div>
 

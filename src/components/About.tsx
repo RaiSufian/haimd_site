@@ -15,29 +15,29 @@ const About = () => {
                         <h6 className="font-bold mt-7 text-sm">Here are a few technologies I’ve been working with recently:</h6>
                         <div className="skills_names flex mt-2">
                             <div className="skill_name py-2 flex-1 flex gap-2 items-center">
-                                <img src="/img/skills.svg" />
+                                <img src="/img/skills.svg" alt="skill_icons"/>
                                 <p className="text-sm font-normal">Javascript</p>
                             </div>
                             <div className="skill_name py-2 flex-1 flex gap-2 items-center">
-                                <img src="/img/skills.svg" />
+                                <img src="/img/skills.svg" alt="skill_icons" />
                                 <p className="text-sm font-normal">React JS</p>
                             </div>
                             <div className="skill_name py-2 flex-1 flex gap-2 items-center">
-                                <img src="/img/skills.svg" />
+                                <img src="/img/skills.svg" alt="skill_icons" />
                                 <p className="text-sm font-normal">Next JS</p>
                             </div>
                         </div>
                         <div className="skills_names flex">
                             <div className="skill_name py-2 flex-1 flex gap-2 items-center">
-                                <img src="/img/skills.svg" />
+                                <img src="/img/skills.svg" alt="skill_icons" />
                                 <p className="text-sm font-normal">Bootstrap</p>
                             </div>
                             <div className="skill_name py-2 flex-1 flex gap-2 items-center">
-                                <img src="/img/skills.svg" />
+                                <img src="/img/skills.svg" alt="skill_icons" />
                                 <p className="text-sm font-normal">Tailwind</p>
                             </div>
                             <div className="skill_name py-2 flex-1 flex gap-2 items-center">
-                                <img src="/img/skills.svg" />
+                                <img src="/img/skills.svg" alt="skill_icons" />
                                 <p className="text-sm font-normal">Rest API</p>
                             </div>
                         </div>
