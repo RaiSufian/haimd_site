@@ -8,9 +8,9 @@ const About = () => {
                         <h2 className="lg:text-5xl text-3xl font-extrabold"><span className="text-themeColor">About </span>Abu Sufian</h2>
                         <p className="py-4 pr-12 text-sm">A creative professional with a strong portfolio in digital design, including experience with front-end development. Experienced working from concept to production, and with stakeholders from multiple disciplines.</p>
                         <div className="about_social flex items-center gap-4">
-                            <a href="#"><Icon icon="mdi:github" className="text-xl " /></a>
-                            <a href="#"><Icon icon="ic:baseline-facebook" className="text-xl" /></a>
-                            <a href="#"><Icon icon="ph:twitter-logo-light" className="text-xl" /></a>
+                            <a href='https://github.com/RaiSufian' target="_black" aria-label='get my git account'><Icon icon="mdi:github" className="text-xl " /></a>
+                            <a href='https://www.linkedin.com/in/abu-sufian-5104221a0/' target="_black"  aria-label='get my link din account ' ><Icon icon="ic:baseline-facebook" className="text-xl" /></a>
+                            <a href='https://twitter.com/RaiSufian5' target="_black" aria-label='get my twitter account '><Icon icon="ph:twitter-logo-light" className="text-xl" /></a>
                         </div>
                         <h6 className="font-bold mt-7 text-sm">Here are a few technologies I’ve been working with recently:</h6>
                         <div className="skills_names flex mt-2">

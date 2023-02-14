@@ -14,17 +14,15 @@ const Hero = () => {
 
                 </div>
                 <div className="flex-1">
-                    <img src="/img/hero.png" className="mx-auto lg:w-[70%] w-[100%] animate-waving-hand" alt="hero_img"/>
+                    <img src="/img/hero.png" className="mx-auto lg:w-[70%] w-[100%] animate-waving-hand" alt="hero_img" />
                 </div>
             </div>
 
             <div className="my_skills_list bg-white -rotate-1 mt-3">
                 <div className="skill_item text-black md:flex hidden items-center py-3 justify-center xl:gap-6 lg:gap-3 lg:text-md text-sm gap-1">
-                    <h6 className="font-extrabold">HTML5</h6>
-                    <Icon icon="fa:asterisk" className="text-themeColor" />
-                    <h6 className="font-extrabold">CSS</h6>
-                    <Icon icon="fa:asterisk" className="text-themeColor" />
-                    <h6 className="font-extrabold">Javascript</h6>
+
+
+                    <h6 className="font-extrabold">JavaScript</h6>
                     <Icon icon="fa:asterisk" className="text-themeColor" />
                     <h6 className="font-extrabold">REACT JS</h6>
                     <Icon icon="fa:asterisk" className="text-themeColor" />
@@ -38,7 +36,12 @@ const Hero = () => {
                     <Icon icon="fa:asterisk" className="text-themeColor" />
                     <h6 className="font-extrabold">Gatsby</h6>
                     <Icon icon="fa:asterisk" className="text-themeColor" />
+                    <h6 className="font-extrabold">Tailwind</h6>
+                    <Icon icon="fa:asterisk" className="text-themeColor" />
                     <h6 className="font-extrabold">Bootstrap</h6>
+                    <Icon icon="fa:asterisk" className="text-themeColor" />
+                    <h6 className="font-extrabold">TypeScript</h6>
+
                 </div>
             </div>
         </div>
