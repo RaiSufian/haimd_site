@@ -44,7 +44,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="flex-1 flex justify-center align-middle ">
-                    <div className="relative before:absolute before:bg-gray-300 before:-inset-1 before:content-[''] before:rounded-3xl before:translate-y-4 before:translate-x-4 hover:before:translate-x-0 hover:before:translate-y-0 before:transition-all before:duration-300"><img src="/img/about.png" width={500} className="mx-auto relative" /></div>
+                    <div className="relative before:absolute before:bg-gray-300 before:-inset-1 before:content-[''] before:rounded-3xl before:translate-y-4 before:translate-x-4 hover:before:translate-x-0 hover:before:translate-y-0 before:transition-all before:duration-300"><img src="/img/about.png" width={500} className="mx-auto relative"alt="about img" /></div>
                 </div>
             </div>
         </div>
