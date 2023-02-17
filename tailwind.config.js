@@ -24,7 +24,7 @@ module.exports = {
         "waving-hand": "wave 2s linear infinite",
       },
       backgroundImage: {
-        contact: "url('../public/img/webdeveloper.webp')",
+        contact: "url('../public/img/contactUS.webp')",
       },
     },
   },
