@@ -1,6 +1,7 @@
 import * as Yup from "yup";
 import { useFormik } from "formik";
 import { ToastContainer, toast } from 'react-toastify';
+import emailjs from 'emailjs-com';
 
 
 const Enquire = () => {
@@ -16,6 +17,12 @@ const Enquire = () => {
     // ==================================================
     const onSubmit = (value: any) => {
         console.log("from values are", value)
+        emailjs.sendForm('jonesmart53@gmail.com', 'template_m50e1cm', value, 'ZEV9-2Pc-ZkkRdkKK')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
         formik.resetForm();
         toast('🦄 Thank you for Interest', {
             position: "top-right",
@@ -26,7 +33,7 @@ const Enquire = () => {
             draggable: true,
             progress: undefined,
             theme: "light",
-            });
+        });
     }
 
     // ==================================================
@@ -87,7 +94,7 @@ const Enquire = () => {
                         {formik.touched.del && formik.errors.del ? (
                             <div className="error">{formik.errors.del}</div>
                         ) : null}
-                        <button className="mt-3 lg:py-5 lg:px-16 py-2 px-7 bg-white text-black font-bold rounded-full">Submit</button>
+                        <button className="mt-3 lg:py-5 lg:px-16 py-2 px-7 bg-white text-black font-bold rounded-full" type="submit">Submit</button>
                     </form>
                 </div>
             </div>

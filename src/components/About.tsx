@@ -1,12 +1,12 @@
 import { Icon } from '@iconify/react';
 const About = () => {
     return (
-        <div className="about_section py-12 ">
+        <div className="about_section md:py-12 py-5">
             <div className="container px-14 md:flex mx-auto items-center">
                 <div className="flex-1 flex align-middle ">
-                    <div className="relative before:absolute before:bg-transparent before:-inset-1 before:content-[''] before:border-zinc-200 before:border-2 before:rounded-3xl before:translate-y-4 before:translate-x-4 hover:before:translate-x-0 hover:before:translate-y-0 before:transition-all before:duration-300"><img src="/img/about.png" width={500} className="mx-auto relative" alt="about img" /></div>
+                    <div className="relative before:absolute before:bg-transparent before:-inset-1 before:content-[''] before:border-zinc-200 before:border-2 before:rounded-3xl before:translate-y-4 before:translate-x-4 hover:before:translate-x-0 hover:before:translate-y-0 before:transition-all before:duration-300"><img src="/img/about.webp" width={500} className="mx-auto relative" alt="about img" /></div>
                 </div>
-                <div className="flex-1">
+                <div className="flex-1 mt-5 lg:mt-0">
                     <div className="text-white font-inter">
                         <h2 className="lg:text-5xl text-3xl font-extrabold"><span className="text-themeColor">About </span>Abu Sufian</h2>
                         <p className="py-4 pr-12 text-sm">A creative professional with a strong portfolio in digital design, including experience with front-end development. Experienced working from concept to production, and with stakeholders from multiple disciplines.</p>

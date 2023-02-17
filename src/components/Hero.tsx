@@ -2,7 +2,7 @@ import { Icon } from '@iconify/react';
 const Hero = () => {
     return (
         <div className="hero_section py-8">
-            <div className="px-14 container mx-auto md:flex items-center">
+            <div className="md:px-14 px-4 container mx-auto md:flex items-center">
                 <div className="flex-1" >
                     <div className="hero_content_side font-inter">
                         <p className="font-bold text-gray-500 flex items-center gap-1 text-lg"><Icon icon="ic:round-front-hand" style={{ color: "#FFCF4B" }} /> Hello, My name is</p>
@@ -14,7 +14,7 @@ const Hero = () => {
 
                 </div>
                 <div className="flex-1" style={{ background: "radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.11) 0%, rgba(29, 30, 34, 0) 100%)" }}>
-                    <img src="/img/mockup.png" className="mx-auto lg:w-[100%] w-[100%]" alt="hero_img" />
+                    <img src="/img/mockup.webp" className="mx-auto lg:w-[100%] w-[100%]" alt="hero_img" />
                 </div>
             </div>
 
