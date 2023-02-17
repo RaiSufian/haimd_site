@@ -7,7 +7,7 @@ const setPagebottom = ()=>{
 const Header = () => {
     return (
         <div className="py-5  border-b-2 border-gray-800 bg-black">
-            <div className="container mx-auto flex justify-between lg:px-14 md:px-8 px-2"><a href="/" aria-label='go back to home'><img src="/img/logo.jpg" alt="logo" width={100}/></a>
+            <div className="container mx-auto flex justify-between lg:px-14 md:px-8 px-2"><a href="/" aria-label='go back to home'><img src="/img/logo.jpg" alt="logo" width={200}/></a>
                 <div className="header_menu flex items-center gap-5">
                     <div className="flex items-center">
                         <a href='https://github.com/RaiSufian' target="_black" aria-label='get my git account'>
