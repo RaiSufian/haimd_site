@@ -2,7 +2,7 @@ import { Icon } from '@iconify/react';
 const Hero = () => {
     return (
         <div className="hero_section py-8">
-            <div className="md:px-14 px-4 container mx-auto md:flex items-center">
+            <div className="md:px-14 px-4 container mx-auto md:flex items-center justify-center">
                 <div className="flex-1" >
                     <div className="hero_content_side font-inter">
                         <p className="font-bold text-gray-500 flex items-center gap-1 text-lg"><Icon icon="ic:round-front-hand" style={{ color: "#FFCF4B" }} /> Hello, My name is</p>
@@ -13,8 +13,10 @@ const Hero = () => {
                     </div>
 
                 </div>
-                <div className="flex-1" style={{ background: "radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.11) 0%, rgba(29, 30, 34, 0) 100%)" }}>
-                    <img src="/img/mockup.webp" className="mx-auto lg:w-[100%] w-[100%]" alt="hero_img" />
+                <div className="flex-1 flex justify-center items-center py-2 translate-y-20 md:translate-y-10" style={{ background: "radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.11) 0%, rgba(29, 30, 34, 0) 100%)" }}>
+                    <div className=" animate-waving-hand  float-left origin-wave_keys relative before:content-[''] before:absolute before:hidden lg:before:block before:w-[150px]  before:h-[150px] before:border  before:left-[50%] before:translate-x-[-50%] before:border-b-0 before:border-r-0 before:rotate-45 after:content-[''] after:absolute after:w-1 after:h-1 after:bg-white after:top-[-30px] after:left-[50%] after:translate-x-[-50%] after:rounded after:hidden after:lg:block">
+                        <img src="/img/mockup.webp" className="mx-auto w-[800px] md-translate-y-4  relative" alt="hero_img" />
+                    </div>
                 </div>
             </div>
 

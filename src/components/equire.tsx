@@ -1,10 +1,12 @@
 import * as Yup from "yup";
+import { useRef } from "react";
 import { useFormik } from "formik";
 import { ToastContainer, toast } from 'react-toastify';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 
 const Enquire = () => {
+    // const form = useRef<HTMLFormElement> ();
     const initialValues: { name: string; phone: string; email: string; msgtype: string; del: string } = {
         name: "",
         phone: "",
@@ -15,14 +17,19 @@ const Enquire = () => {
     // ==================================================
     // On Submit form
     // ==================================================
-    const onSubmit = (value: any) => {
-        console.log("from values are", value)
-        emailjs.sendForm('jonesmart53@gmail.com', 'template_m50e1cm', value, 'ZEV9-2Pc-ZkkRdkKK')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+    const onSubmit = async (value: any) => {
+        try {
+            await emailjs.send('service_74ipui3', 'template_91qksyn', value, 'ZEV9-2Pc-ZkkRdkKK')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
+        }
+        catch (e) {
+            console.log("submit from error", e)
+        }
+
         formik.resetForm();
         toast('🦄 Thank you for Interest', {
             position: "top-right",

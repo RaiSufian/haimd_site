@@ -15,16 +15,18 @@ module.exports = {
       },
       keyframes: {
         wave: {
-          "0%": { transform: "rotate(3deg)" },
-          "50%": { transform: "rotate(-3deg)" },
-          "100%": { transform: "rotate(3deg)" },
+          "0% ": { transform: "rotate(3deg)" },
+          "100%": { transform: "rotate(-3deg)" },
         },
       },
       animation: {
-        "waving-hand": "wave 2s linear infinite",
+        "waving-hand": "wave ease-in-out 1s infinite alternate",
       },
       backgroundImage: {
         contact: "url('../public/img/contactUS.webp')",
+      },
+      transformOrigin: {
+        "wave_keys" : "center -20px"
       },
     },
   },
