@@ -7,7 +7,7 @@ const Hero = () => {
                     <div className="hero_content_side font-inter">
                         <p className="font-bold text-gray-500 flex items-center gap-1 text-lg"><Icon icon="ic:round-front-hand" style={{ color: "#FFCF4B" }} /> Hello, My name is</p>
                         <h3 className="font-extrabold lg:text-5xl text-3xl">Abu Sufian.</h3>
-                        <h1 className="lg:text-5xl text-3xl font-extrabold py-3 text-themeColor">Frontend web <br /> developer and<br /> Designer</h1>
+                        <h1 className="lg:text-5xl text-3xl font-extrabold py-3 text-themeColor">Websites <br /> Developer &<br /> Designer</h1>
                         <p className="text-sm font-bold lg:w-96">I CREATE WEBSITES THAT ARE A PLEASURE TO USE. I DESIGN THEM WITH BEAUTIFUL TYPOGRAPHY, MEANINGFUL TRANSITIONS AND THOUGHTFUL INTERACTIONS THAT DELIGHT PEOPLE.</p>
                         <button className=" z-10 lg:py-4 py-2 lg:px-14 px-7 bg-themeColor text-black font-bold rounded-full mt-4 relative before:absolute before:content-['Get_in_touch'] before:top-0  before:left-0 before:w-0 before:h-full before:bg-white before:rounded-full before:text-black before:py-4 before:overflow-hidden hover:before:w-full before:transition-all before:duration-150">Get in touch</button>
                     </div>
